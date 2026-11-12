@@ -1,0 +1,5 @@
+.tb{position:absolute;inset:0;overflow:hidden;z-index:0;pointer-events:none;contain:strict}
+.tb-circle{--d:clamp(640px,118vh,1500px);position:absolute;left:-10%;top:16%;width:var(--d);height:var(--d);border-radius:50%}
+.tb-spin{width:100%;height:100%;border-radius:50%;will-change:transform;transform-origin:50% 50%;
+  background:linear-gradient(135deg,rgb(var(--main)) 0%,rgb(var(--soft)) 100%)}
+@media(max-width:640px){.tb-circle{--d:150vw;left:-50vw;top:22%}}

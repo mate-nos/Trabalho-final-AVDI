@@ -1,0 +1,5 @@
+.story{position:relative}
+.story-stage{position:sticky;top:0;height:100vh;overflow:hidden;background:linear-gradient(135deg,rgb(var(--bg1)) 0%,rgb(var(--bg2)) 100%);isolation:isolate;contain:paint}
+.story-dots{position:absolute;right:clamp(10px,2.5vw,28px);top:50%;transform:translateY(-50%);z-index:3;display:grid;gap:12px}
+.story-dots button{width:12px;height:12px;border-radius:50%;border:2px solid rgb(var(--deep));background:transparent;padding:0;cursor:pointer;transition:background .3s,transform .3s}
+.story-dots button.on{background:rgb(var(--deep));transform:scale(1.25)}
