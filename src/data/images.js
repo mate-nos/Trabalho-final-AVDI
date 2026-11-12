@@ -7,6 +7,6 @@ export const IMAGES = {
     veneno:   { src: '', ratio: '3 / 5', label: 'Produto Veneno' },
     psiquico: { src: '', ratio: '3 / 5', label: 'Produto Psíquico' },
     planta:   { src: '', ratio: '3 / 5', label: 'Produto Planta' },
-    sombrio:  { src: '', ratio: '3 / 5', label: 'Produto Sombrio' },
+    Noturno:  { src: '/img/biscoito_scrafty.png', ratio: '3 / 5', label: 'Produto Noturno' },
   },
 }

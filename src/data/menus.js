@@ -28,13 +28,13 @@ export const MENUS = [
       { name: 'Suco Semente de Bulbasaur', desc: 'Abacaxi, couve, hortelã e gengibre, prensado a frio.', price: 13.9 },
       { name: 'Salada Folhas de Leafeon', desc: 'Mix de folhas, manga, castanhas e molho cítrico de ervas.', price: 24 },
       { name: 'Wrap Cauda de Sceptile', desc: 'Pasta de grão-de-bico, legumes grelhados e pesto de manjericão.', price: 22.5 } ] },
-  { slug: 'sombrio', name: 'Sombrio', pokemon: ['Umbreon', 'Absol', 'Houndoom'],
+  { slug: 'Noturno', name: 'Noturno', pokemon: ['Scrafty', 'Malamar', 'Grimmsnarl'],
     colors: { main: [124,70,196], soft: [205,190,230], deep: [66,22,108], bg1: [26,22,36], bg2: [72,30,112], ink: [255,255,255] },
     tagline: 'Para quem pede depois da meia-noite.',
     items: [
-      { name: 'Cold Brew Lua de Umbreon', desc: 'Café escuro com tônica e anéis dourados de laranja cristalizada.', price: 14 },
-      { name: 'Brownie Desastre de Absol', desc: 'Chocolate 70%, calda de vinho tinto e sal negro.', price: 17.9 },
-      { name: 'Shake Brasa de Houndoom', desc: 'Sorvete de cacau, pimenta suave e farofa crocante de carvão ativado.', price: 19.9 } ] },
+      { name: 'Biscoito Casca-Grossa do Scrafty', desc: 'Biscoito de baunilha e laranja, temático do nosso rebelde favorito.', price: 7 },
+      { name: 'Brownie Enigmático do Malamar', desc: 'Brownie de chocolate amargo, calda de amora e suspiro. ', price: 11.9 },
+      { name: 'Shake de Travessuras do Grimmsnarl', desc: 'Milk-shake de chocolate amargo, calda de frutas vermelhas e raspas de chocolate roxo.', price: 19.9 } ] },
 ]
 export const themeVars = (c) => ({ '--main': c.main.join(','), '--soft': c.soft.join(','), '--deep': c.deep.join(','), '--bg1': c.bg1.join(','), '--bg2': c.bg2.join(','), '--ink': c.ink.join(',') })
 export const money = (v) => v.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
